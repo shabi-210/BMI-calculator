@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:minWidth="48dp"
+        android:background="@drawable/back"
+        android:elevation="10dp"
+        android:padding="12dp"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:inputType="number"
+        android:textColorHint="#EADA4F"
+        android:hint="@string/weight"
+        android:id="@+id/weight">
+    </EditText>
+    <EditText
+        android:background="@drawable/back"
+        android:elevation="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:minWidth="48dp"
+        android:padding="12dp"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:layout_marginTop="4dp"
+        android:inputType="number"
+        android:textColorHint="#EADA4F"
+        android:hint="@string/heightFt"
+        android:id="@+id/heightFt">
+    </EditText>
+    <EditText
+        android:background="@drawable/back"
+        android:elevation="10dp"
+        android:layout_marginTop="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:minWidth="48dp"
+        android:padding="12dp"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:inputType="number"
+        android:textColorHint="#EADA4F"
+        android:hint="@string/heightIn"
+        android:id="@+id/heightIn">
+    </EditText>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="7"
+        android:layout_marginTop="10dp"
+        android:hint="@string/calculate"
+        android:backgroundTint="#C384CD"
+        android:textColorHint="@color/white"
+        android:id="@+id/calculateBMI">
+    </androidx.appcompat.widget.AppCompatButton>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/result"
+        android:textSize="25sp"
+        android:textColorHint="#EADA4F"
+        android:id="@+id/result">
+    </TextView>
+
+
+
+
+
+
+
+</LinearLayout>
